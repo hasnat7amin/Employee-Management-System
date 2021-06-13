@@ -50,12 +50,12 @@ function Profiles() {
               <p className="lead text-center">List of employee details</p>
               <div className='container m-4' >
                 <div class="row">
-                  <div class="col-md-6  col-sm-12">
+                  <div class="col-md-6">
                     <Link to='/addemployee'>
                       <button className='btn btn-dark'>Add New Employee</button>
                     </Link>
                     </div>
-                    <div class="col-md-6 col-sm-12 my-2">
+                    <div class="col-md-6 mx-2">
                     <SearchBar
                         value={search}
                         placeholder="Search An Employee With Name"
@@ -66,8 +66,9 @@ function Profiles() {
                 </div>
                
               </div>
-              <div class='container-fluid'>
-              <table  id="dtHorizontalExample" class="table table-sm" cellspacing="1" width="100%">
+              <div class='container'></div>
+              <table  id="dtHorizontalExample" class="table table-striped table-bordered table-sm" cellspacing="1"
+  width="100%">
                 <thead className="thead-dark">
                   <tr>
                     <th scope="col">Name</th>
@@ -96,7 +97,6 @@ function Profiles() {
                     }
                   ))}</tbody>
               </table>
-              </div>
             </div>
           </div>
         </div>
