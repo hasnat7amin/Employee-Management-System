@@ -34,8 +34,8 @@ function Home() {
 
         <div class="container-fluid">
             <div class="row">
-            <div class='col col-sm-12 bg-dark w-100%'>
-                <img class="bg-dark" src={require('./home.jpg')} alt="CEO image" />
+            <div class='col-md-6 col-sm-12 bg-dark '>
+                <img class="bg-dark" src="https://images.unsplash.com/photo-1552642986-ccb41e7059e7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fG1lbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="CEO image" />
             </div>
             <div class='col-md-6 col-sm-12 bg-dark text-white'>
                     <h2>Hasnat Amin</h2>

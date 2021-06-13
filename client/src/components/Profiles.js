@@ -66,7 +66,8 @@ function Profiles() {
                 </div>
                
               </div>
-              <table className="table overflow-auto w-75 ">
+              <table  id="dtHorizontalExample" class="table table-striped table-bordered table-sm" cellspacing="0"
+  width="100%">
                 <thead className="thead-dark">
                   <tr>
                     <th scope="col">Name</th>

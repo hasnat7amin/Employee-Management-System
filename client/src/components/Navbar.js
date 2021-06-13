@@ -79,14 +79,15 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="nav-link"
                 onClick={()=>{
                   localStorage.removeItem("token")
-                 }}>
+                 }}
+              >
                 Logout
-              </Link>
+        </a>
             </li>
           </ul>
         </div>
