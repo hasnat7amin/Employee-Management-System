@@ -34,7 +34,7 @@ function Home() {
 
         <div class="container-fluid">
             <div class="row">
-            <div class='col col-sm-12 bg-dark w-100'>
+            <div class='col col-sm-12 bg-dark w-100%'>
                 <img class="bg-dark" src="https://media.istockphoto.com/photos/mature-mixed-race-business-man-picture-id1059661424?k=6&m=1059661424&s=612x612&w=0&h=Wkp3Rs2F_90PtZu07-fR1YmzGjsw5qj73D42doCo1Gc=" alt="CEO image" />
             </div>
             <div class='col-md-6 col-sm-12 bg-dark text-white'>

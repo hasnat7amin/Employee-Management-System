@@ -66,7 +66,7 @@ function Profiles() {
                 </div>
                
               </div>
-              <table className="table overflow-scroll ">
+              <table className="table overflow-auto w-75 ">
                 <thead className="thead-dark">
                   <tr>
                     <th scope="col">Name</th>
