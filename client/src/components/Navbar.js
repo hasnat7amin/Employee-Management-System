@@ -84,7 +84,7 @@ export default function Navbar() {
                 className="nav-link"
                 onClick={()=>{
                   localStorage.removeItem("token")
-                
+                  window.location = "https://employee-managementsystem.herokuapp.com/";
                 }}
               >
                 Logout
