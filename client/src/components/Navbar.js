@@ -79,16 +79,16 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <a
-                href=""
+              <Link
+              to="/"
+                
                 className="nav-link"
                 onClick={()=>{
                   localStorage.removeItem("token")
-                  window.location = "https://employee-managementsystem.herokuapp.com/";
-                }}
+                 }}
               >
                 Logout
-        </a>
+        </Link>
             </li>
           </ul>
         </div>
