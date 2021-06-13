@@ -66,7 +66,7 @@ function Profiles() {
                 </div>
                
               </div>
-              <div class='container-fluid table-responsive-xl'></div>
+              <div class='table-responsive-xl'></div>
               <table  id="dtHorizontalExample"  class="table table-striped  table-hover  " width="100%">
                 <thead className="thead-dark">
                   <tr>
