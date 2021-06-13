@@ -84,7 +84,7 @@ export default function Navbar() {
                 className="nav-link"
                 onClick={()=>{
                   localStorage.removeItem("token")
-                  window.location = "http://localhost:3000/";
+                
                 }}
               >
                 Logout
