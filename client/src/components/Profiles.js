@@ -43,7 +43,7 @@ function Profiles() {
   return (
     <div>
       <div className="profiles">
-        <div className="container overflow-auto">
+        <div className="container">
           <div className="row">
             <div className="col-md-12">
               <h1 className="display-4 text-center">Employees Profiles</h1>
@@ -66,7 +66,7 @@ function Profiles() {
                 </div>
                
               </div>
-              <table className="table">
+              <table className="table overflow-scroll w-100">
                 <thead className="thead-dark">
                   <tr>
                     <th scope="col">Name</th>
