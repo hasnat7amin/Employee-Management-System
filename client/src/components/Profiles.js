@@ -50,7 +50,7 @@ function Profiles() {
               <p className="lead text-center">List of employee details</p>
               <div className='container m-4' >
                 <div class="row">
-                  <div class="col-md-6 mx-2">
+                  <div class="col-md-6">
                     <Link to='/addemployee'>
                       <button className='btn btn-dark'>Add New Employee</button>
                     </Link>
@@ -67,7 +67,7 @@ function Profiles() {
                
               </div>
               <div class='container'></div>
-              <table  id="dtHorizontalExample"  class="table table-striped table-bordered table-md table-responsive" cellspacing="0" width="100%">
+              <table  id="dtHorizontalExample"  class="table table-striped table-hover table-lg table-responsive" cellspacing="0" width="100%">
                 <thead className="thead-dark">
                   <tr>
                     <th scope="col">Name</th>
