@@ -55,7 +55,7 @@ function Profiles() {
                       <button className='btn btn-dark'>Add New Employee</button>
                     </Link>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 m-2">
                     <SearchBar
                         value={search}
                         placeholder="Search An Employee With Name"
@@ -66,7 +66,7 @@ function Profiles() {
                 </div>
                
               </div>
-              <div class='container-fluid table-responsive'></div>
+              <div class='container-fluid table-responsive-xl'></div>
               <table  id="dtHorizontalExample"  class="table table-striped  table-hover  " width="100%">
                 <thead className="thead-dark">
                   <tr>
