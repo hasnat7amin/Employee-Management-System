@@ -46,7 +46,7 @@ export default function Navbar() {
 
     <nav className="navbar navbar-expand-md navbar-dark bg-dark w-100">
       <div className="container-fluid">
-        <Link className="navbar-brand w-75 overflow-hidden" to="/">
+        <Link className="navbar-brand " to="/">
           EMS - Employee Management System
           </Link>
         <button

@@ -67,7 +67,7 @@ function Profiles() {
                
               </div>
               <div class='container'></div>
-              <table  id="dtHorizontalExample" class="table table-striped table-bordered table-sm" cellspacing="1"
+              <table  id="dtHorizontalExample" style="overflow-x:auto; width:400px; position:absolute " class="table table-striped table-bordered table-sm" cellspacing="1"
   width="100%">
                 <thead className="thead-dark">
                   <tr>
