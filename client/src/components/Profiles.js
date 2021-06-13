@@ -55,7 +55,7 @@ function Profiles() {
                       <button className='btn btn-dark'>Add New Employee</button>
                     </Link>
                     </div>
-                    <div class="col-md-6 m-2">
+                    <div class="col-md-6 my-2">
                     <SearchBar
                         value={search}
                         placeholder="Search An Employee With Name"
