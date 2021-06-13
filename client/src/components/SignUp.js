@@ -78,7 +78,7 @@ export default function SignUp(props) {
         }
       })
       alert("You are successfully registered.Now go to Login page...")
-      window.location = "http://localhost:3000/";
+      window.location = "/";
     } catch (error) {
       console.log(error)
       alert("Invalid Credentials! Please try to change your data.")

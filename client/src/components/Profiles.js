@@ -43,7 +43,7 @@ function Profiles() {
   return (
     <div>
       <div className="profiles">
-        <div className="container">
+        <div className="container overflow-auto">
           <div className="row">
             <div className="col-md-12">
               <h1 className="display-4 text-center">Employees Profiles</h1>
