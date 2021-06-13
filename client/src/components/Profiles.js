@@ -50,12 +50,12 @@ function Profiles() {
               <p className="lead text-center">List of employee details</p>
               <div className='container m-4' >
                 <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-6  col-sm-12">
                     <Link to='/addemployee'>
                       <button className='btn btn-dark'>Add New Employee</button>
                     </Link>
                     </div>
-                    <div class="col-md-6 mx-2">
+                    <div class="col-md-6 col-sm-12 my-2">
                     <SearchBar
                         value={search}
                         placeholder="Search An Employee With Name"
