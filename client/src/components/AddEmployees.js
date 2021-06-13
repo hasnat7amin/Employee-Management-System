@@ -94,7 +94,7 @@ export default function AddEmployees({token}) {
             }
           })
           alert("Employee is added.")
-          window.location = "http://localhost:3000/profiles";      
+          window.location = "/profiles";      
           
         } catch (error) {
           console.log(error)

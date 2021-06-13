@@ -94,7 +94,7 @@ export default function UpdateEmployee() {
           })
           alert("Employee is updated added.")
           localStorage.removeItem('employee')
-          window.location = "http://localhost:3000/profiles";
+          window.location = "/profiles";
         } catch (error) {
           console.log(error)
           alert("Invalid Credentials! Please try to change your data.")
